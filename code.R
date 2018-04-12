@@ -1,6 +1,6 @@
 #read data from csv files
-trainingData <- read.csv(file = "/Users/Tirath/Desktop/OneDrive/CMPE_256/HW/dataset-hw-1/train.csv")
-testData <- read.csv(file = "/Users/Tirath/Desktop/OneDrive/CMPE_256/HW/dataset-hw-1/test.csv")
+trainingData <- read.csv(file = "/Users/ishaan/Desktop/OneDrive/CMPE_256/HW/dataset-hw-1/train.csv")
+testData <- read.csv(file = "/Users/ishaan/Desktop/OneDrive/CMPE_256/HW/dataset-hw-1/test.csv")
 
 #see names of all atrributes in training data
 names(trainingData)
