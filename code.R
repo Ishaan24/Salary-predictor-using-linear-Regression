@@ -63,10 +63,10 @@ export(df, "/Users/Tirath/Desktop/OneDrive/CMPE_256/HW/dataset-hw-1/salary.csv")
 
 #putting the salary to the submission file and exporting
 
-salaryData <- read.csv(file = "/Users/Tirath/Desktop/OneDrive/CMPE_256/HW/dataset-hw-1/salary.csv")
+salaryData <- read.csv(file = "/Users/ishaan/Desktop/OneDrive/CMPE_256/HW/dataset-hw-1/salary.csv")
 names(salaryData) <- gsub("p", "salary", names(salaryData))
-submission <- read.csv(file = "/Users/Tirath/Desktop/OneDrive/CMPE_256/HW/dataset-hw-1/sampleSubmission.csv")
+submission <- read.csv(file = "/Users/ishaan/Desktop/OneDrive/CMPE_256/HW/dataset-hw-1/sampleSubmission.csv")
 submission[,"salary"]<-salaryData[,"salary"]
-export(submission, "/Users/Tirath/Desktop/OneDrive/CMPE_256/HW/dataset-hw-1/submission.csv")
+export(submission, "/Users/ishaan/Desktop/OneDrive/CMPE_256/HW/dataset-hw-1/submission.csv")
 
 
